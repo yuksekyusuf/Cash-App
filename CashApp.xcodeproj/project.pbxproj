@@ -7,23 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5756D741272F3B1D00D8A9E9 /* StocksInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5756D740272F3B1D00D8A9E9 /* StocksInteractor.swift */; };
+		57909A66273225D100797893 /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57909A65273225D100797893 /* UIViewController+Ext.swift */; };
+		57B1AD42272C6BD50071ED4A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B1AD41272C6BD50071ED4A /* MainViewController.swift */; };
+		57B1AD46272C6D010071ED4A /* CashAppButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B1AD45272C6D010071ED4A /* CashAppButton.swift */; };
+		57B1AD48272C76CF0071ED4A /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B1AD47272C76CF0071ED4A /* UIColor+Ext.swift */; };
+		57B1AD4B272C7D4B0071ED4A /* CashAppTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B1AD4A272C7D4B0071ED4A /* CashAppTitleLabel.swift */; };
+		57B1AD4D272C7E2C0071ED4A /* CashAppSecondaryTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B1AD4C272C7E2C0071ED4A /* CashAppSecondaryTitle.swift */; };
+		57B1AD4F272C827C0071ED4A /* UIFlowLayoutHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B1AD4E272C827C0071ED4A /* UIFlowLayoutHelper.swift */; };
+		57B1AD53272C95700071ED4A /* StockViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B1AD52272C95700071ED4A /* StockViewModel.swift */; };
+		57B1AD55272CAB8D0071ED4A /* SingleStockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B1AD54272CAB8D0071ED4A /* SingleStockViewController.swift */; };
+		57B1AD57272CB7560071ED4A /* CashAppAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B1AD56272CB7560071ED4A /* CashAppAlertViewController.swift */; };
 		57DC0415272A3590008FDECE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DC0414272A3590008FDECE /* AppDelegate.swift */; };
 		57DC0417272A3590008FDECE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DC0416272A3590008FDECE /* SceneDelegate.swift */; };
-		57DC0419272A3590008FDECE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DC0418272A3590008FDECE /* ViewController.swift */; };
-		57DC041C272A3590008FDECE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57DC041A272A3590008FDECE /* Main.storyboard */; };
 		57DC041E272A3592008FDECE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57DC041D272A3592008FDECE /* Assets.xcassets */; };
 		57DC0421272A3592008FDECE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57DC041F272A3592008FDECE /* LaunchScreen.storyboard */; };
+		57DC042D272A4959008FDECE /* Stock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DC042C272A4959008FDECE /* Stock.swift */; };
+		57DC042F272A4AA9008FDECE /* StocksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DC042E272A4AA9008FDECE /* StocksViewController.swift */; };
+		57DC0433272A4F37008FDECE /* StockService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DC0432272A4F37008FDECE /* StockService.swift */; };
+		57DC0436272A4FFE008FDECE /* CashAppErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DC0435272A4FFE008FDECE /* CashAppErrors.swift */; };
+		57DC0438272A56CD008FDECE /* StockCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DC0437272A56CC008FDECE /* StockCell.swift */; };
+		FDCEE560A1A3C8BA246F4EB9 /* Pods_CashApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 548FF69DC30EBD1B752C2700 /* Pods_CashApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		353BFEE87C39E2FD9C385CCC /* Pods-CashApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CashApp.debug.xcconfig"; path = "Target Support Files/Pods-CashApp/Pods-CashApp.debug.xcconfig"; sourceTree = "<group>"; };
+		548FF69DC30EBD1B752C2700 /* Pods_CashApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CashApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5756D740272F3B1D00D8A9E9 /* StocksInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StocksInteractor.swift; sourceTree = "<group>"; };
+		57909A65273225D100797893 /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
+		57B1AD41272C6BD50071ED4A /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		57B1AD45272C6D010071ED4A /* CashAppButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashAppButton.swift; sourceTree = "<group>"; };
+		57B1AD47272C76CF0071ED4A /* UIColor+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Ext.swift"; sourceTree = "<group>"; };
+		57B1AD4A272C7D4B0071ED4A /* CashAppTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashAppTitleLabel.swift; sourceTree = "<group>"; };
+		57B1AD4C272C7E2C0071ED4A /* CashAppSecondaryTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashAppSecondaryTitle.swift; sourceTree = "<group>"; };
+		57B1AD4E272C827C0071ED4A /* UIFlowLayoutHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFlowLayoutHelper.swift; sourceTree = "<group>"; };
+		57B1AD52272C95700071ED4A /* StockViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockViewModel.swift; sourceTree = "<group>"; };
+		57B1AD54272CAB8D0071ED4A /* SingleStockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleStockViewController.swift; sourceTree = "<group>"; };
+		57B1AD56272CB7560071ED4A /* CashAppAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CashAppAlertViewController.swift; path = ../CashAppAlertViewController.swift; sourceTree = "<group>"; };
 		57DC0411272A3590008FDECE /* CashApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CashApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57DC0414272A3590008FDECE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		57DC0416272A3590008FDECE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		57DC0418272A3590008FDECE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		57DC041B272A3590008FDECE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		57DC041D272A3592008FDECE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		57DC0420272A3592008FDECE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		57DC0422272A3592008FDECE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57DC042C272A4959008FDECE /* Stock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stock.swift; sourceTree = "<group>"; };
+		57DC042E272A4AA9008FDECE /* StocksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StocksViewController.swift; sourceTree = "<group>"; };
+		57DC0432272A4F37008FDECE /* StockService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockService.swift; sourceTree = "<group>"; };
+		57DC0435272A4FFE008FDECE /* CashAppErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashAppErrors.swift; sourceTree = "<group>"; };
+		57DC0437272A56CC008FDECE /* StockCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockCell.swift; sourceTree = "<group>"; };
+		95C917FA77498B5EDEAA6393 /* Pods-CashApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CashApp.release.xcconfig"; path = "Target Support Files/Pods-CashApp/Pods-CashApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +63,77 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDCEE560A1A3C8BA246F4EB9 /* Pods_CashApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5756D73E272F3A2400D8A9E9 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				57DC042C272A4959008FDECE /* Stock.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		5756D73F272F3A3100D8A9E9 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				57DC0432272A4F37008FDECE /* StockService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		57909A642732037300797893 /* Interactors */ = {
+			isa = PBXGroup;
+			children = (
+				5756D740272F3B1D00D8A9E9 /* StocksInteractor.swift */,
+			);
+			path = Interactors;
+			sourceTree = "<group>";
+		};
+		57B1AD43272C6CC90071ED4A /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				57DC0437272A56CC008FDECE /* StockCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		57B1AD44272C6CD40071ED4A /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				57B1AD45272C6D010071ED4A /* CashAppButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		57B1AD49272C7D2A0071ED4A /* Labels */ = {
+			isa = PBXGroup;
+			children = (
+				57B1AD4A272C7D4B0071ED4A /* CashAppTitleLabel.swift */,
+				57B1AD4C272C7E2C0071ED4A /* CashAppSecondaryTitle.swift */,
+			);
+			path = Labels;
+			sourceTree = "<group>";
+		};
+		57B1AD51272C95630071ED4A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				57B1AD52272C95700071ED4A /* StockViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		57DC0408272A3590008FDECE = {
 			isa = PBXGroup;
 			children = (
 				57DC0413272A3590008FDECE /* CashApp */,
 				57DC0412272A3590008FDECE /* Products */,
+				6092B1D2448839A130331A70 /* Pods */,
+				5DB484E8F955370DCE2B0FAF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +148,85 @@
 		57DC0413272A3590008FDECE /* CashApp */ = {
 			isa = PBXGroup;
 			children = (
-				57DC0414272A3590008FDECE /* AppDelegate.swift */,
+				57909A642732037300797893 /* Interactors */,
+				57B1AD51272C95630071ED4A /* ViewModel */,
+				57DC042B272A494C008FDECE /* Model */,
+				57DC0429272A4935008FDECE /* Views */,
+				57DC0428272A4925008FDECE /* Controllers */,
+				57DC0434272A4FE6008FDECE /* Utils */,
 				57DC0416272A3590008FDECE /* SceneDelegate.swift */,
-				57DC0418272A3590008FDECE /* ViewController.swift */,
-				57DC041A272A3590008FDECE /* Main.storyboard */,
+				57DC0414272A3590008FDECE /* AppDelegate.swift */,
 				57DC041D272A3592008FDECE /* Assets.xcassets */,
 				57DC041F272A3592008FDECE /* LaunchScreen.storyboard */,
 				57DC0422272A3592008FDECE /* Info.plist */,
 			);
 			path = CashApp;
+			sourceTree = "<group>";
+		};
+		57DC0428272A4925008FDECE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				57B1AD41272C6BD50071ED4A /* MainViewController.swift */,
+				57DC042E272A4AA9008FDECE /* StocksViewController.swift */,
+				57B1AD54272CAB8D0071ED4A /* SingleStockViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		57DC0429272A4935008FDECE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				57DEF56C272DEBF2007BFE46 /* ViewControllers */,
+				57B1AD49272C7D2A0071ED4A /* Labels */,
+				57B1AD44272C6CD40071ED4A /* Buttons */,
+				57B1AD43272C6CC90071ED4A /* Cells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		57DC042B272A494C008FDECE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5756D73F272F3A3100D8A9E9 /* Services */,
+				5756D73E272F3A2400D8A9E9 /* Entities */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		57DC0434272A4FE6008FDECE /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				57DC0435272A4FFE008FDECE /* CashAppErrors.swift */,
+				57B1AD47272C76CF0071ED4A /* UIColor+Ext.swift */,
+				57909A65273225D100797893 /* UIViewController+Ext.swift */,
+				57B1AD4E272C827C0071ED4A /* UIFlowLayoutHelper.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		57DEF56C272DEBF2007BFE46 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				57B1AD56272CB7560071ED4A /* CashAppAlertViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		5DB484E8F955370DCE2B0FAF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				548FF69DC30EBD1B752C2700 /* Pods_CashApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6092B1D2448839A130331A70 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				353BFEE87C39E2FD9C385CCC /* Pods-CashApp.debug.xcconfig */,
+				95C917FA77498B5EDEAA6393 /* Pods-CashApp.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +236,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 57DC0425272A3592008FDECE /* Build configuration list for PBXNativeTarget "CashApp" */;
 			buildPhases = (
+				10DC4E1C7BE9CE3809A610B0 /* [CP] Check Pods Manifest.lock */,
 				57DC040D272A3590008FDECE /* Sources */,
 				57DC040E272A3590008FDECE /* Frameworks */,
 				57DC040F272A3590008FDECE /* Resources */,
+				577B7A43272DBEF100BDAA3B /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -127,34 +291,82 @@
 			files = (
 				57DC0421272A3592008FDECE /* LaunchScreen.storyboard in Resources */,
 				57DC041E272A3592008FDECE /* Assets.xcassets in Resources */,
-				57DC041C272A3590008FDECE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		10DC4E1C7BE9CE3809A610B0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CashApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		577B7A43272DBEF100BDAA3B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which \"${PODS_ROOT}/SwiftLint/swiftlint\" >/dev/null; then\n    ${PODS_ROOT}/SwiftLint/swiftlint\nelse\n    echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		57DC040D272A3590008FDECE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57DC0419272A3590008FDECE /* ViewController.swift in Sources */,
+				57DC0433272A4F37008FDECE /* StockService.swift in Sources */,
+				5756D741272F3B1D00D8A9E9 /* StocksInteractor.swift in Sources */,
+				57DC042F272A4AA9008FDECE /* StocksViewController.swift in Sources */,
 				57DC0415272A3590008FDECE /* AppDelegate.swift in Sources */,
+				57DC042D272A4959008FDECE /* Stock.swift in Sources */,
 				57DC0417272A3590008FDECE /* SceneDelegate.swift in Sources */,
+				57B1AD53272C95700071ED4A /* StockViewModel.swift in Sources */,
+				57DC0438272A56CD008FDECE /* StockCell.swift in Sources */,
+				57909A66273225D100797893 /* UIViewController+Ext.swift in Sources */,
+				57B1AD4B272C7D4B0071ED4A /* CashAppTitleLabel.swift in Sources */,
+				57B1AD42272C6BD50071ED4A /* MainViewController.swift in Sources */,
+				57B1AD4D272C7E2C0071ED4A /* CashAppSecondaryTitle.swift in Sources */,
+				57DC0436272A4FFE008FDECE /* CashAppErrors.swift in Sources */,
+				57B1AD57272CB7560071ED4A /* CashAppAlertViewController.swift in Sources */,
+				57B1AD48272C76CF0071ED4A /* UIColor+Ext.swift in Sources */,
+				57B1AD55272CAB8D0071ED4A /* SingleStockViewController.swift in Sources */,
+				57B1AD46272C6D010071ED4A /* CashAppButton.swift in Sources */,
+				57B1AD4F272C827C0071ED4A /* UIFlowLayoutHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		57DC041A272A3590008FDECE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				57DC041B272A3590008FDECE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		57DC041F272A3592008FDECE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -284,6 +496,7 @@
 		};
 		57DC0426272A3592008FDECE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 353BFEE87C39E2FD9C385CCC /* Pods-CashApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -294,7 +507,7 @@
 				INFOPLIST_FILE = CashApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -306,12 +519,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		57DC0427272A3592008FDECE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95C917FA77498B5EDEAA6393 /* Pods-CashApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -322,7 +536,7 @@
 				INFOPLIST_FILE = CashApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -334,7 +548,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
