@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		5756D741272F3B1D00D8A9E9 /* StocksInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5756D740272F3B1D00D8A9E9 /* StocksInteractor.swift */; };
 		57909A66273225D100797893 /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57909A65273225D100797893 /* UIViewController+Ext.swift */; };
+		5797806A2774269E003CDE3C /* CashAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579780692774269E003CDE3C /* CashAppTests.swift */; };
 		57B1AD42272C6BD50071ED4A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B1AD41272C6BD50071ED4A /* MainViewController.swift */; };
 		57B1AD46272C6D010071ED4A /* CashAppButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B1AD45272C6D010071ED4A /* CashAppButton.swift */; };
 		57B1AD48272C76CF0071ED4A /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B1AD47272C76CF0071ED4A /* UIColor+Ext.swift */; };
@@ -30,11 +31,23 @@
 		FDCEE560A1A3C8BA246F4EB9 /* Pods_CashApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 548FF69DC30EBD1B752C2700 /* Pods_CashApp.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		5797806B2774269E003CDE3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57DC0409272A3590008FDECE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57DC0410272A3590008FDECE;
+			remoteInfo = CashApp;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		353BFEE87C39E2FD9C385CCC /* Pods-CashApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CashApp.debug.xcconfig"; path = "Target Support Files/Pods-CashApp/Pods-CashApp.debug.xcconfig"; sourceTree = "<group>"; };
 		548FF69DC30EBD1B752C2700 /* Pods_CashApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CashApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5756D740272F3B1D00D8A9E9 /* StocksInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StocksInteractor.swift; sourceTree = "<group>"; };
 		57909A65273225D100797893 /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
+		579780672774269E003CDE3C /* CashAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CashAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		579780692774269E003CDE3C /* CashAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashAppTests.swift; sourceTree = "<group>"; };
 		57B1AD41272C6BD50071ED4A /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		57B1AD45272C6D010071ED4A /* CashAppButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashAppButton.swift; sourceTree = "<group>"; };
 		57B1AD47272C76CF0071ED4A /* UIColor+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Ext.swift"; sourceTree = "<group>"; };
@@ -59,6 +72,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		579780642774269E003CDE3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		57DC040E272A3590008FDECE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -92,6 +112,14 @@
 				5756D740272F3B1D00D8A9E9 /* StocksInteractor.swift */,
 			);
 			path = Interactors;
+			sourceTree = "<group>";
+		};
+		579780682774269E003CDE3C /* CashAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				579780692774269E003CDE3C /* CashAppTests.swift */,
+			);
+			path = CashAppTests;
 			sourceTree = "<group>";
 		};
 		57B1AD43272C6CC90071ED4A /* Cells */ = {
@@ -131,6 +159,7 @@
 			isa = PBXGroup;
 			children = (
 				57DC0413272A3590008FDECE /* CashApp */,
+				579780682774269E003CDE3C /* CashAppTests */,
 				57DC0412272A3590008FDECE /* Products */,
 				6092B1D2448839A130331A70 /* Pods */,
 				5DB484E8F955370DCE2B0FAF /* Frameworks */,
@@ -141,6 +170,7 @@
 			isa = PBXGroup;
 			children = (
 				57DC0411272A3590008FDECE /* CashApp.app */,
+				579780672774269E003CDE3C /* CashAppTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -232,6 +262,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		579780662774269E003CDE3C /* CashAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5797806F2774269E003CDE3C /* Build configuration list for PBXNativeTarget "CashAppTests" */;
+			buildPhases = (
+				579780632774269E003CDE3C /* Sources */,
+				579780642774269E003CDE3C /* Frameworks */,
+				579780652774269E003CDE3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5797806C2774269E003CDE3C /* PBXTargetDependency */,
+			);
+			name = CashAppTests;
+			productName = CashAppTests;
+			productReference = 579780672774269E003CDE3C /* CashAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		57DC0410272A3590008FDECE /* CashApp */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 57DC0425272A3592008FDECE /* Build configuration list for PBXNativeTarget "CashApp" */;
@@ -258,9 +306,13 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1300;
+				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1300;
 				TargetAttributes = {
+					579780662774269E003CDE3C = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 57DC0410272A3590008FDECE;
+					};
 					57DC0410272A3590008FDECE = {
 						CreatedOnToolsVersion = 13.0;
 					};
@@ -280,11 +332,19 @@
 			projectRoot = "";
 			targets = (
 				57DC0410272A3590008FDECE /* CashApp */,
+				579780662774269E003CDE3C /* CashAppTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		579780652774269E003CDE3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		57DC040F272A3590008FDECE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -339,6 +399,14 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		579780632774269E003CDE3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5797806A2774269E003CDE3C /* CashAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		57DC040D272A3590008FDECE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -366,6 +434,14 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		5797806C2774269E003CDE3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57DC0410272A3590008FDECE /* CashApp */;
+			targetProxy = 5797806B2774269E003CDE3C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		57DC041F272A3592008FDECE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -378,6 +454,44 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		5797806D2774269E003CDE3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 62739J54F9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuksekyusuf.CashAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CashApp.app/CashApp";
+			};
+			name = Debug;
+		};
+		5797806E2774269E003CDE3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 62739J54F9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuksekyusuf.CashAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CashApp.app/CashApp";
+			};
+			name = Release;
+		};
 		57DC0423272A3592008FDECE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -555,6 +669,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		5797806F2774269E003CDE3C /* Build configuration list for PBXNativeTarget "CashAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5797806D2774269E003CDE3C /* Debug */,
+				5797806E2774269E003CDE3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		57DC040C272A3590008FDECE /* Build configuration list for PBXProject "CashApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
