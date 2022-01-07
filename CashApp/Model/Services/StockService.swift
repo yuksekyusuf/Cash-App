@@ -7,7 +7,9 @@
 
 import UIKit
 
-
+protocol StockServicing {
+    func getStocks(complition: @escaping (Result<Stocks, CashAppErrors>) -> Void)
+}
 class StockService {
     private let baseURL = "https://storage.googleapis.com/cash-homework/cash-stocks-api/portfolio.json"
     func getStocks(complition: @escaping (Result<Stocks, CashAppErrors>) -> Void) {
