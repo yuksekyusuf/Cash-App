@@ -8,11 +8,11 @@
 import UIKit
 
 protocol StockServicing {
-    func getStocks(complition: @escaping (Result<Stocks, CashAppErrors>) -> Void)
+    func getStocks(complition: @escaping (Result<[Stock], CashAppErrors>) -> Void)
 }
-class StockService {
+class StockService: StockServicing {
     private let baseURL = "https://storage.googleapis.com/cash-homework/cash-stocks-api/portfolio.json"
-    func getStocks(complition: @escaping (Result<Stocks, CashAppErrors>) -> Void) {
+    func getStocks(complition: @escaping (Result<[Stock], CashAppErrors>) -> Void) {
         let endpoint = baseURL
         guard let url = URL(string: endpoint) else { return }
 
@@ -40,7 +40,7 @@ class StockService {
                     decoder.keyDecodingStrategy = .convertFromSnakeCase
                     let stocks = try decoder.decode(Stocks.self, from: data)
                     DispatchQueue.main.async {
-                        complition(.success(stocks))
+                        complition(.success(stocks.stocks))
                     }
                 } catch {
                     DispatchQueue.main.async {

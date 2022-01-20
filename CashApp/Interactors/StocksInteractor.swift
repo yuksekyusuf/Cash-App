@@ -22,8 +22,8 @@ class StocksInteractor: StocksInteracting {
     var isSearching: Bool = false
     var stocks = [Stock]()
     var filteredStocks = [Stock]()
-    private var stockService: StockService
-    init(stockService: StockService) {
+    private var stockService: StockServicing
+    init(stockService: StockServicing) {
         self.stockService = stockService
     }
     // MARK: UpdatesData after Search
@@ -39,7 +39,7 @@ class StocksInteractor: StocksInteracting {
             guard let self = self else { return }
             switch result {
             case .success(let stocksData):
-                self.stocks = stocksData.stocks
+                self.stocks = stocksData
                 self.viewController?.updateData(on: self.stocks)
                 if self.stocks.isEmpty {
                     let message = "This endpoint has no data. Try another url please!"

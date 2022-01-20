@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		5756D741272F3B1D00D8A9E9 /* StocksInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5756D740272F3B1D00D8A9E9 /* StocksInteractor.swift */; };
+		5782B8D72798F7B8000089F7 /* MockService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5782B8D62798F7B8000089F7 /* MockService.swift */; };
+		5782B8D92798F885000089F7 /* MockViewControlling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5782B8D82798F885000089F7 /* MockViewControlling.swift */; };
 		57909A66273225D100797893 /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57909A65273225D100797893 /* UIViewController+Ext.swift */; };
 		5797806A2774269E003CDE3C /* StocksInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579780692774269E003CDE3C /* StocksInteractorTests.swift */; };
 		57B1AD42272C6BD50071ED4A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B1AD41272C6BD50071ED4A /* MainViewController.swift */; };
@@ -22,8 +24,6 @@
 		57B961C12787DA2E00004321 /* StocksFixture.json in Resources */ = {isa = PBXBuildFile; fileRef = 57B961C02787DA2E00004321 /* StocksFixture.json */; };
 		57B961C42787DA3900004321 /* StocksMalformedFixture.json in Resources */ = {isa = PBXBuildFile; fileRef = 57B961C22787DA3900004321 /* StocksMalformedFixture.json */; };
 		57B961C52787DA3900004321 /* StocksEmptyFixture.json in Resources */ = {isa = PBXBuildFile; fileRef = 57B961C32787DA3900004321 /* StocksEmptyFixture.json */; };
-		57B961C82787DAAD00004321 /* StockViewControllingMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B961C72787DAAD00004321 /* StockViewControllingMock.swift */; };
-		57B961CA2787E14800004321 /* StockServiceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B961C92787E14800004321 /* StockServiceMock.swift */; };
 		57DC0415272A3590008FDECE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DC0414272A3590008FDECE /* AppDelegate.swift */; };
 		57DC0417272A3590008FDECE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DC0416272A3590008FDECE /* SceneDelegate.swift */; };
 		57DC041E272A3592008FDECE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57DC041D272A3592008FDECE /* Assets.xcassets */; };
@@ -31,7 +31,7 @@
 		57DC042D272A4959008FDECE /* Stock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DC042C272A4959008FDECE /* Stock.swift */; };
 		57DC042F272A4AA9008FDECE /* StocksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DC042E272A4AA9008FDECE /* StocksViewController.swift */; };
 		57DC0433272A4F37008FDECE /* StockService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DC0432272A4F37008FDECE /* StockService.swift */; };
-		57DC0436272A4FFE008FDECE /* CashAppErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DC0435272A4FFE008FDECE /* CashAppErrors.swift */; };
+		57DC0436272A4FFE008FDECE /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DC0435272A4FFE008FDECE /* Error.swift */; };
 		57DC0438272A56CD008FDECE /* StockCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DC0437272A56CC008FDECE /* StockCell.swift */; };
 		FDCEE560A1A3C8BA246F4EB9 /* Pods_CashApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 548FF69DC30EBD1B752C2700 /* Pods_CashApp.framework */; };
 /* End PBXBuildFile section */
@@ -50,6 +50,8 @@
 		353BFEE87C39E2FD9C385CCC /* Pods-CashApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CashApp.debug.xcconfig"; path = "Target Support Files/Pods-CashApp/Pods-CashApp.debug.xcconfig"; sourceTree = "<group>"; };
 		548FF69DC30EBD1B752C2700 /* Pods_CashApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CashApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5756D740272F3B1D00D8A9E9 /* StocksInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StocksInteractor.swift; sourceTree = "<group>"; };
+		5782B8D62798F7B8000089F7 /* MockService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockService.swift; sourceTree = "<group>"; };
+		5782B8D82798F885000089F7 /* MockViewControlling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockViewControlling.swift; sourceTree = "<group>"; };
 		57909A65273225D100797893 /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
 		579780672774269E003CDE3C /* CashAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CashAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		579780692774269E003CDE3C /* StocksInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StocksInteractorTests.swift; sourceTree = "<group>"; };
@@ -65,8 +67,6 @@
 		57B961C02787DA2E00004321 /* StocksFixture.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = StocksFixture.json; sourceTree = "<group>"; };
 		57B961C22787DA3900004321 /* StocksMalformedFixture.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = StocksMalformedFixture.json; sourceTree = "<group>"; };
 		57B961C32787DA3900004321 /* StocksEmptyFixture.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = StocksEmptyFixture.json; sourceTree = "<group>"; };
-		57B961C72787DAAD00004321 /* StockViewControllingMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockViewControllingMock.swift; sourceTree = "<group>"; };
-		57B961C92787E14800004321 /* StockServiceMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockServiceMock.swift; sourceTree = "<group>"; };
 		57DC0411272A3590008FDECE /* CashApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CashApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57DC0414272A3590008FDECE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		57DC0416272A3590008FDECE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,7 +76,7 @@
 		57DC042C272A4959008FDECE /* Stock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stock.swift; sourceTree = "<group>"; };
 		57DC042E272A4AA9008FDECE /* StocksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StocksViewController.swift; sourceTree = "<group>"; };
 		57DC0432272A4F37008FDECE /* StockService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockService.swift; sourceTree = "<group>"; };
-		57DC0435272A4FFE008FDECE /* CashAppErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashAppErrors.swift; sourceTree = "<group>"; };
+		57DC0435272A4FFE008FDECE /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
 		57DC0437272A56CC008FDECE /* StockCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockCell.swift; sourceTree = "<group>"; };
 		95C917FA77498B5EDEAA6393 /* Pods-CashApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CashApp.release.xcconfig"; path = "Target Support Files/Pods-CashApp/Pods-CashApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -100,6 +100,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		571F43902798C57F00306D62 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				579780692774269E003CDE3C /* StocksInteractorTests.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		571F43912798C58800306D62 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
 		5756D73E272F3A2400D8A9E9 /* Entities */ = {
 			isa = PBXGroup;
 			children = (
@@ -129,7 +144,8 @@
 			children = (
 				57B961C62787DA4100004321 /* Mocks */,
 				57B961BF2787DA0700004321 /* Fixtures */,
-				579780692774269E003CDE3C /* StocksInteractorTests.swift */,
+				571F43912798C58800306D62 /* Service */,
+				571F43902798C57F00306D62 /* Screen */,
 			);
 			path = CashAppTests;
 			sourceTree = "<group>";
@@ -180,8 +196,8 @@
 		57B961C62787DA4100004321 /* Mocks */ = {
 			isa = PBXGroup;
 			children = (
-				57B961C72787DAAD00004321 /* StockViewControllingMock.swift */,
-				57B961C92787E14800004321 /* StockServiceMock.swift */,
+				5782B8D62798F7B8000089F7 /* MockService.swift */,
+				5782B8D82798F885000089F7 /* MockViewControlling.swift */,
 			);
 			path = Mocks;
 			sourceTree = "<group>";
@@ -257,7 +273,7 @@
 		57DC0434272A4FE6008FDECE /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				57DC0435272A4FFE008FDECE /* CashAppErrors.swift */,
+				57DC0435272A4FFE008FDECE /* Error.swift */,
 				57B1AD47272C76CF0071ED4A /* UIColor+Ext.swift */,
 				57909A65273225D100797893 /* UIViewController+Ext.swift */,
 				57B1AD4E272C827C0071ED4A /* UIFlowLayoutHelper.swift */,
@@ -437,9 +453,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5782B8D92798F885000089F7 /* MockViewControlling.swift in Sources */,
+				5782B8D72798F7B8000089F7 /* MockService.swift in Sources */,
 				5797806A2774269E003CDE3C /* StocksInteractorTests.swift in Sources */,
-				57B961CA2787E14800004321 /* StockServiceMock.swift in Sources */,
-				57B961C82787DAAD00004321 /* StockViewControllingMock.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -459,7 +475,7 @@
 				57B1AD4B272C7D4B0071ED4A /* CashAppTitleLabel.swift in Sources */,
 				57B1AD42272C6BD50071ED4A /* MainViewController.swift in Sources */,
 				57B1AD4D272C7E2C0071ED4A /* CashAppSecondaryTitle.swift in Sources */,
-				57DC0436272A4FFE008FDECE /* CashAppErrors.swift in Sources */,
+				57DC0436272A4FFE008FDECE /* Error.swift in Sources */,
 				57B1AD57272CB7560071ED4A /* CashAppAlertViewController.swift in Sources */,
 				57B1AD48272C76CF0071ED4A /* UIColor+Ext.swift in Sources */,
 				57B1AD55272CAB8D0071ED4A /* SingleStockViewController.swift in Sources */,

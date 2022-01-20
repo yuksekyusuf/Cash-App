@@ -43,8 +43,7 @@ class StocksViewController: UIViewController, StockViewControlling {
         title = "Stocks"
     }
     private func configureCollectionView() {
-        collectionView = UICollectionView(frame: view.bounds,
-                                          collectionViewLayout: UIFlowLayoutHelper.createTwoColumnLayout(in: view))
+        collectionView = UICollectionView(frame: view.bounds, collectionViewLayout: UIFlowLayoutHelper.createTwoColumnLayout(in: view))
         view.addSubview(collectionView)
         collectionView.backgroundColor = .systemBackground
         collectionView.delegate = self
@@ -78,6 +77,7 @@ class StocksViewController: UIViewController, StockViewControlling {
         snapshot.appendItems(stocks)
         self.dataSource.apply(snapshot, animatingDifferences: true)
     }
+    
     func presentAlert(title: String, message: String) {
         self.presentCustomAlert(title: title, message: message, buttonTitle: "Ok")
     }
