@@ -9,9 +9,6 @@ import XCTest
 @testable import CashApp
 
 class StocksInteractorTests: XCTestCase {
-    enum TestError: Error {
-        case mock
-    }
     let viewControllerMock = MockViewControlling()
     var serviceMock = MockService()
     var interactor: StocksInteractor!
@@ -33,6 +30,14 @@ class StocksInteractorTests: XCTestCase {
         XCTAssertEqual(viewControllerMock.invokedPresentAlertCount, 0)
     }
     
+    func test_getStocks_failure() {
+        serviceMock.stubbedGetStocksComplitionResult = (.failure(CashAppErrors.unableToComplete), ())
+        XCTAssertEqual(serviceMock.invokedGetStocksCount, 0)
+        XCTAssertEqual(viewControllerMock.invokedUpdateDataCount, 0)
+        interactor.getStocks()
+        XCTAssertEqual(viewControllerMock.invokedPresentAlertCount, 1)
+    }
+    
     private func createExampleStock() -> Stock {
         return Stock(ticker: "SQ",
                      name: "Square INC",
@@ -41,4 +46,5 @@ class StocksInteractorTests: XCTestCase {
                      quantity: 0,
                      currentPriceTimestamp: 11)
     }
+    
 }
