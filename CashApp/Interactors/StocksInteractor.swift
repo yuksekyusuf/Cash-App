@@ -35,7 +35,8 @@ class StocksInteractor: StocksInteracting {
     }
     // MARK: - Fetch stocks data
     func getStocks() {
-        stockService.getStocks { [weak self] result in
+        let baseURL = "https://storage.googleapis.com/cash-homework/cash-stocks-api/portfolio.json"
+        stockService.getStocks(url: baseURL) { [weak self] result in
             guard let self = self else { return }
             switch result {
             case .success(let stocksData):

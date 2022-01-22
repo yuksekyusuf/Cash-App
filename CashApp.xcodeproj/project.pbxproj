@@ -12,6 +12,7 @@
 		5782B8D92798F885000089F7 /* MockViewControlling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5782B8D82798F885000089F7 /* MockViewControlling.swift */; };
 		57909A66273225D100797893 /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57909A65273225D100797893 /* UIViewController+Ext.swift */; };
 		5797806A2774269E003CDE3C /* StocksInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579780692774269E003CDE3C /* StocksInteractorTests.swift */; };
+		579D9516279BB36100641CA9 /* StocksServiceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579D9515279BB36100641CA9 /* StocksServiceTest.swift */; };
 		57B1AD42272C6BD50071ED4A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B1AD41272C6BD50071ED4A /* MainViewController.swift */; };
 		57B1AD46272C6D010071ED4A /* CashAppButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B1AD45272C6D010071ED4A /* CashAppButton.swift */; };
 		57B1AD48272C76CF0071ED4A /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B1AD47272C76CF0071ED4A /* UIColor+Ext.swift */; };
@@ -55,6 +56,7 @@
 		57909A65273225D100797893 /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
 		579780672774269E003CDE3C /* CashAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CashAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		579780692774269E003CDE3C /* StocksInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StocksInteractorTests.swift; sourceTree = "<group>"; };
+		579D9515279BB36100641CA9 /* StocksServiceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StocksServiceTest.swift; sourceTree = "<group>"; };
 		57B1AD41272C6BD50071ED4A /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		57B1AD45272C6D010071ED4A /* CashAppButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashAppButton.swift; sourceTree = "<group>"; };
 		57B1AD47272C76CF0071ED4A /* UIColor+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Ext.swift"; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 		571F43912798C58800306D62 /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				579D9515279BB36100641CA9 /* StocksServiceTest.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -455,6 +458,7 @@
 			files = (
 				5782B8D92798F885000089F7 /* MockViewControlling.swift in Sources */,
 				5782B8D72798F7B8000089F7 /* MockService.swift in Sources */,
+				579D9516279BB36100641CA9 /* StocksServiceTest.swift in Sources */,
 				5797806A2774269E003CDE3C /* StocksInteractorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

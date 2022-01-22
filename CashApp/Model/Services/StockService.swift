@@ -8,13 +8,13 @@
 import UIKit
 
 protocol StockServicing {
-    func getStocks(complition: @escaping (Result<[Stock], CashAppErrors>) -> Void)
+    func getStocks(url: String, complition: @escaping (Result<[Stock], CashAppErrors>) -> Void)
 }
 class StockService: StockServicing {
-    private let baseURL = "https://storage.googleapis.com/cash-homework/cash-stocks-api/portfolio.json"
-    func getStocks(complition: @escaping (Result<[Stock], CashAppErrors>) -> Void) {
-        let endpoint = baseURL
-        guard let url = URL(string: endpoint) else { return }
+    
+    func getStocks(url: String, complition: @escaping (Result<[Stock], CashAppErrors>) -> Void) {
+
+        guard let url = URL(string: url) else { return }
 
             let task = URLSession.shared.dataTask(with: url) { data, response, error in
                 if error != nil {
