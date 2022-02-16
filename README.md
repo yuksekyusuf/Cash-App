@@ -1,5 +1,5 @@
 # Cash-App
-Cash-App is a small take home project showing stock exchange prices for certain companies. Despite the fact that the app has small feature, I try to showcase best practices in the architectural design and testing.
+Cash-App is a small take home project showing stock exchange prices for certain companies. Despite the fact that the app has small features, I try to showcase best practices in the architectural design and testing.
 
 ## Tech/Frameworks used
 - Swift
