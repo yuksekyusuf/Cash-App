@@ -6,3 +6,6 @@ Cash-App is a small take home project showing stock exchange prices for certain 
 - UIKit (100% Programmatic UI)
 - Diffable Datasource
 - I used a pragmatic approach in my architectural design, a combination of MVVM and VIPER, inspired by <a href="https://omerfarukgul.medium.com/a-pragmatic-approach-to-mobile-architecture-f5e12175aacf" target="_blank">this article</a>
+
+
+<img src="https://user-images.githubusercontent.com/68251921/154310684-8bd8d294-7fcb-409c-8e32-e6d4dbd7703d.png" width="350">
