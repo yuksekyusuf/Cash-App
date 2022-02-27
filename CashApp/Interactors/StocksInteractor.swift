@@ -5,10 +5,14 @@
 //  Created by Ahmet Yusuf Yuksek on 10/31/21.
 //
 
+// This is an interactor, inspired by VIPER and clean architecture. It runs the business logic for
+// StocksViewController. This service receives two dependencies, a viewcontroller and a service class,
+// by leveraging protocol-oriented programming. I used this approach to make this class/interactor testable.
+
 import UIKit
 
 protocol StocksInteracting: AnyObject {
-    func getStocks()
+    func fetchStocks()
     func searchResults(with text: String?)
     func cancelButtonTapped()
     func cellTapped(on indexPath: IndexPath) -> UIViewController
@@ -34,9 +38,8 @@ class StocksInteractor: StocksInteracting {
         self.viewController?.updateData(on: filteredStocks)
     }
     // MARK: - Fetch stocks data
-    func getStocks() {
-        let baseURL = "https://storage.googleapis.com/cash-homework/cash-stocks-api/portfolio.json"
-        stockService.getStocks(url: baseURL) { [weak self] result in
+    func fetchStocks() {
+        stockService.getStocks { [weak self] result in
             guard let self = self else { return }
             switch result {
             case .success(let stocksData):
@@ -56,7 +59,6 @@ class StocksInteractor: StocksInteracting {
         isSearching = false
         self.viewController?.updateData(on: stocks)
     }
-    
     // MARK: - Handles when a cell is tapped
     func cellTapped(on indexPath: IndexPath) -> UIViewController {
         let activeArray = isSearching ? filteredStocks : stocks

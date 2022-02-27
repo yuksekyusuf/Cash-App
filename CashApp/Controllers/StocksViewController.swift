@@ -30,7 +30,7 @@ class StocksViewController: UIViewController, StockViewControlling {
     override func viewDidLoad() {
         super.viewDidLoad()
         configureUI()
-        interactor.getStocks()
+        interactor.fetchStocks()
         configureCollectionView()
         configureDataSource()
         configureSearchController()
@@ -89,6 +89,7 @@ class StocksViewController: UIViewController, StockViewControlling {
 // MARK: - CollectionView Delegate Methods
 extension StocksViewController: UICollectionViewDelegate {
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        print("DEBUG:\(indexPath.row)")
         let viewController = interactor.cellTapped(on: indexPath)
         let nav = UINavigationController(rootViewController: viewController)
         nav.modalPresentationStyle = .popover

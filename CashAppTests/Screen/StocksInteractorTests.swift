@@ -24,7 +24,7 @@ class StocksInteractorTests: XCTestCase {
         XCTAssertEqual(serviceMock.invokedGetStocksCount, 0)
         XCTAssertEqual(viewControllerMock.invokedUpdateDataCount, 0)
         XCTAssertEqual(viewControllerMock.invokedPresentAlertCount, 0)
-        interactor.getStocks()
+        interactor.fetchStocks()
         XCTAssertEqual(serviceMock.invokedGetStocksCount, 1)
         XCTAssertEqual(viewControllerMock.invokedUpdateDataCount, 1)
         XCTAssertEqual(viewControllerMock.invokedPresentAlertCount, 0)
@@ -34,7 +34,7 @@ class StocksInteractorTests: XCTestCase {
         serviceMock.stubbedGetStocksComplitionResult = (.failure(CashAppErrors.unableToComplete), ())
         XCTAssertEqual(serviceMock.invokedGetStocksCount, 0)
         XCTAssertEqual(viewControllerMock.invokedUpdateDataCount, 0)
-        interactor.getStocks()
+        interactor.fetchStocks()
         XCTAssertEqual(viewControllerMock.invokedPresentAlertCount, 1)
     }
     

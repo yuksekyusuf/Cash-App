@@ -10,7 +10,6 @@ import UIKit
 @testable import CashApp
 
 class MockService: StockServicing {
-
     var invokedGetStocks = false
     var invokedGetStocksCount = 0
     var stubbedGetStocksComplitionResult: (Result<[Stock], CashAppErrors>, Void)?
