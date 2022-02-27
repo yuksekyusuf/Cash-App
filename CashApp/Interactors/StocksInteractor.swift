@@ -6,8 +6,10 @@
 //
 
 // This is an interactor, inspired by VIPER and clean architecture. It runs the business logic for
-// StocksViewController. This service receives two dependencies, a viewcontroller and a service class,
-// by leveraging protocol-oriented programming. I used this approach to make this class/interactor testable.
+// StocksViewController. This service receives a dependency, a service class, by leveraging
+// protocol-oriented programming.
+// The viewcontroller is assigned externally.
+// I used this approach to make this class/interactor testable.
 
 import UIKit
 
